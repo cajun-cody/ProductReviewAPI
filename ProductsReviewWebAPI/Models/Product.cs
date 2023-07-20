@@ -9,6 +9,6 @@ namespace ProductsReviewWebAPI.Models
         public string Name { get; set; }
         public double Price { get; set; }
         //Navigation property
-        public ICollection<Review> Reviews { get; set; }
+        public virtual ICollection<Review> Reviews { get; set; }
     }
 }
